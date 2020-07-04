@@ -1,0 +1,12 @@
+from turtle import *
+
+colors = ["red", "blue", "green", "gray", "orange", "black"]
+bgcolor("black")
+
+for i in range(1000):
+    forward(2+i/4)
+    left(30 - i/12)
+    color(colors[i%6])
+
+turtle.done()
+turtle.mainloop()
