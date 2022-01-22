@@ -1,5 +1,6 @@
 from turtle import *
-speed(5)
+hideturtle()
+speed(0)
 bgcolor('black')
 r,g,b = 255, 0, 0
 
