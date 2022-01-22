@@ -1,10 +1,10 @@
 import turtle
 
-turtle.speed(10000) 
+turtle.speed(0) 
 turtle.hideturtle() 
 wn=turtle.Screen() 
 wn.bgcolor("black") 
-turtle.pencolor("green") 
+turtle.pencolor("red") 
  
 def dragoncurve(l,n): 
   for i in range(1): 
